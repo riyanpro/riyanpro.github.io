@@ -14,6 +14,6 @@ http
     //返回
     response.end(temFs);
   })
-  .listen(5050, "127.0.0.1", () => {
+  .listen(80, "127.0.0.1", () => {
     console.log("success");
   });
